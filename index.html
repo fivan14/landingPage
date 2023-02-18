@@ -23,10 +23,10 @@
 
             <div id="hero-text-container" style="margin-left: 40px;">
                 <div id="hero-title-box">
-                    <p id="hero-title" style="font-size: 48px; font-weight: 900; color: #f9faf8; margin: 10px 0px;">This website is</br> awesome!</p>
+                    <p id="hero-title" style="font-size: 48px; font-weight: bolder; color: #f9faf8; margin: 10px 0px;">This website is</br> awesome!</p>
                 </div>
-                <div id="hero-subtitle-box" style="width: 60%">
-                    <p id="hero-subtitle" style="color:#e5e7eb;">This website has some subtext that goes here under the main 
+                <div id="hero-subtitle-box" style="width: 80%">
+                    <p id="hero-subtitle" style="color:#e5e7eb; font-size: 18px;">This website has some subtext that goes here under the main 
                     title. It's a smaller font and the color is lower contrast.</p>
                 </div>
                 <div id="hero-button-box">
@@ -35,12 +35,14 @@
             </div>
 
             <div id="hero-img-container" style="margin-right: 40px;">
-                <div style="width: 400px; height: 200px; background-color: gray;"></div>
+                <div style="width: 500px; height: 200px; background-color: gray; display: flex; justify-content: center; align-items: center;">
+                    <p style="color: white; font-size: 18px">this is a placeholder for an image</p>
+                </div>
             </div>
         </div>
     </div>
     <div style="display: flex; justify-content: center;">
-        <div id="main-section" style="display: flex; flex-direction: column; margin-top: 20px; width: 50%;">
+        <div id="main-section" style="display: flex; flex-direction: column; margin-top: 20px; width: 50%; margin-bottom: 50px;">
             <div id="random-info-box" style="display: flex; justify-content: center;">
                 <p style="font-size: 36px; font-weight: 900; color:#1f2937">Some random information.</p>
             </div>
@@ -67,8 +69,35 @@
         </div>
     </div>
     
-    <div id="quote-section">
-        
+    <div id="quote-section" style="display: flex; justify-content: center; background-color: #e5e7eb;">
+        <div id="helper-container" style="display: flex; flex-direction: column; width: 45%;">
+            <div id="quote-div" style="margin: 30px 0px 0px 0px">
+                <p style="font-size: 36px; font-weight: 100; font-style: italic">This is an inspiring quote, or a testiomonial from a customer. Maybe it's just filling 
+                    up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+                </p>
+            </div>
+            <div id="author-div" style="display: flex; justify-content: flex-end;">
+                <p style="font-size: 18px; font-weight: 500px">-Thor, God of Thunder</p>
+            </div>
+        </div>
     </div>
+
+    <div style="display: flex; justify-content: center;">
+        <div style="background-color: #3882f6; display: flex; justify-content: space-around; width: 60%; margin: 50px 0px; border-radius: 10px;">
+            <div style="display: flex; flex-direction: column; justify-content: center; padding: 30px 0px">
+                <p style="color: white; font-size: 24px; font-weight: bolder; margin-bottom: 0px;">Call to action! It's time!</p>
+                <p style="margin-top: 0px; color: #e5e7eb">Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div style="display: flex; align-items: center">
+                <button style="background-color: #3882f6; color: white; width: 110px; height: 30px; border-radius: 5px; font-size: 18px; border: 1px solid white;">Sign up</button>
+            </div>
+        </div>
+    </div>
+
+    <footer style="background-color: #1f2937; display: flex; justify-content: center; padding: 15px 0px">
+        <div>
+            <p style="color: white">Copyright The Odin Project 2021</p>
+        </div>
+    </footer>
 </body>
 </html>
